@@ -15,8 +15,8 @@ public class MemberServiceImpl implements MemberService {
 	@Override
 	public ArrayList<Member> getAll() {
 		ArrayList<Member> list = new ArrayList<>();
-		Member mem1 = new Member(1,"Linda,","linda@example.com");
-		Member mem2 = new Member(2,"James,","James@example.com");
+		Member mem1 = new Member(1,"Linda","linda@example.com");
+		Member mem2 = new Member(2,"James","James@example.com");
 		list.add(mem1);
 		list.add(mem2);
 		
